@@ -106,7 +106,7 @@ https://<IP_address_of_EC2_instance>:64297
 - Attack Map shows the live attacks that are happening.
 ![image10](images/10.png)
 - Cyber Chef is a perfect payload inspection tool offered by T-Pot. 
-![image11](images/11.png)
+![image_11](images/11.png)
 - Elasticvue and Spiderfoot are other tools offered in T-Pot.
 
 ### - Step 8: Perform an Attack
@@ -114,4 +114,36 @@ https://<IP_address_of_EC2_instance>:64297
 - Also, make sure to download [rockyou.txt](https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt), which is a text file containing 1000s of usernames and passwords.
 - In Hydra, I gave the inputs as follows:
 ![image12](images/12.png)
+- Then I got the username and password:
+![image13](images/13.png)
+
+## Results
+- AWS EC2 Instance Ubuntu Server Based
+![image14](images/14.png)
+- T-Pot Main Menu
+![image_8](images/8.png)
+- T-Pot Kibana Dashboard
+![image_9](images/9.png)
+- T-Pot Attack Map
+![image_16](images/16.png)
+![image_17](images/17.png)
+- Inspecting an Attacker
+![image_15](images/15.png)
+- Decrypting Payloads in CyberChief
+![image_11](images/11.png)
 [readme in progresss]
+
+### A Demo Video Tutorial: 
+I created a video to demonstrate how to:
+- Analyse the attacker behaviour using **Kibana**.
+- Checking the Attack Map.
+- Finding attacker's payload and decrypting it using **CyberChef**.
+- Conducting a **SSH attack** on the Honeypot using **Hydra** on Kali Linux.
+
+[Click here to see the video...](https://drive.google.com/file/d/16mpD3I36R_OmkvQvQ7qpOPQBNUph_TyQ/view?usp=sharing)
+
+
+## Future Scopes
+- Automated alerting and recognizing high-priority attacks.
+- Automated IP blocking or blacklisting.
+
